@@ -7,11 +7,11 @@ merge_type=webp
 target="./images"
 verbose=0
 
-SCRIPT_NAME="Extract PDF Images"
-VERSION=0.1
+SCRIPT_NAME="Image Extractor"
+VERSION=1.0
 
 version(){
-  echo "$SCRIPT_NAME v$VERSION Claus Wiingreen (C) 2022"
+  echo "$SCRIPT_NAME v$VERSION Copyright (C) 2022 Claus Wiingreen"
 }
 
 usage(){
@@ -184,4 +184,3 @@ do
   done
   echo ""
 done
-
