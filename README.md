@@ -6,7 +6,12 @@ A tool that extracts images from pdf files
 * imagemagick
 
 ## Installation
-Copy the script where you want it. I would suggest a folder in your path such as /usr/local/bin. Make sure that the file is executable.
+
+### Debian package
+Download the latest .deb package and install it using `sudo dpkg --install <package-name>`
+
+### Manually
+Copy the script to `/usr/local/bin`. Make sure that the file is executable with `sudo chmod +x /usr/local/bin/image-extractor`.
 
 ## Usage
 ```
